@@ -8,6 +8,7 @@ echo.
 echo ================================================================
 echo                      TESTE COMPLETO DE REDE
 echo                    POR WANDERLEI NEVES JUNIOR
+echo        Chave PIX: 698a8cd3-5418-48aa-94ca-b4adc124ada0
 echo ================================================================
 echo uol.com.br fast.com globo.com youtube.com gov.br cloudflare.com
 echo ================================================================
@@ -36,6 +37,7 @@ echo.
 :: 1. CABEÇALHO
 :: ============================================
 echo TESTES DE REDE - %date% %time% > "%RESULT_FILE%"
+echo Considere fazer um pix para ajudar: 698a8cd3-5418-48aa-94ca-b4adc124ada0
 echo ======================================== >> "%RESULT_FILE%"
 echo Computador: %COMPUTERNAME% >> "%RESULT_FILE%"
 echo Usuario: %USERNAME% >> "%RESULT_FILE%"
