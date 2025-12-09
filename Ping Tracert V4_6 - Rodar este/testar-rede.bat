@@ -42,6 +42,7 @@ echo ======================================== >> "%RESULT_FILE%"
 echo Computador: %COMPUTERNAME% >> "%RESULT_FILE%"
 echo Usuario: %USERNAME% >> "%RESULT_FILE%"
 echo IPv6: %IPV6_ENABLED% >> "%RESULT_FILE%"
+echo Considere fazer um pix para ajudar: 698a8cd3-5418-48aa-94ca-b4adc124ada0 >> "%RESULT_FILE%"
 echo. >> "%RESULT_FILE%"
 
 :: ============================================
@@ -75,7 +76,7 @@ echo. >> "%RESULT_FILE%"
 echo [2] TESTES DE CONECTIVIDADE >> "%RESULT_FILE%"
 echo ============================ >> "%RESULT_FILE%"
 
-set SITES=uol.com.br fast.com globo.com youtube.com gov.br cloudflare.com
+set SITES=uol.com.br
 set COUNT=0
 
 for %%S in (%SITES%) do (
