@@ -76,7 +76,7 @@ echo. >> "%RESULT_FILE%"
 echo [2] TESTES DE CONECTIVIDADE >> "%RESULT_FILE%"
 echo ============================ >> "%RESULT_FILE%"
 
-set SITES=uol.com.br
+set SITES=uol.com.br fast.com globo.com youtube.com gov.br cloudflare.com
 set COUNT=0
 
 for %%S in (%SITES%) do (
